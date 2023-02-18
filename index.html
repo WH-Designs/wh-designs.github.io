@@ -1,79 +1,161 @@
 <!DOCTYPE HTML>
 <html>
+	<head>
+		<title>Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="https://kit.fontawesome.com/27c02e2cfc.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="is-preload">
 
-<head>
-	<title>Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-</head>
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Welcome</a></li>
+							<li><a href="#one">Projects</a></li>
+							<li><a href="#two">Skills</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
 
-<body class="is-preload">
-	<header id="header">
-		<div class="inner">
-			<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
-			<h1><strong>Hello my name is Wyatt Haak</strong>, <br />I am a Software Engineer Student<br />
-				and I want to show you who I am.</h1>
-		</div>
-	</header>
-	<div id="main">
-		<section id="one">
-			<header class="major">
-				<h2>Who am I?<br /></h2>
-			</header>
-			<p>I am a Senior at Western Oregon University currently studying Computer Science and wanting to go into the
-				software development field. I always want to learn more and more about the devices we use each day and
-				create new and exciting things with them. I love to always challenge myself and try new and interesting
-				projects to work on.</p>
-		</section>
-		<section id="two">
-			<h2>Recent Work</h2>
-			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/fulls/oregonturtlesite.jpg" class="image fit thumb"><img
-							src="images/thumbs/oregonturtlesite.jpg" alt="" /></a>
-					<h3>Oregon Turtles</h3>
-					<h4>C# | ASP.NET Core | Xamarin</h4>
-					<p>I am a lead developer on the Development team for Turtle App which is an app and website that
-						WOU is developing for the Oregon Department of Fish and Wildlife that allows
-						anyone to observe and record turtle sightings in Oregon. Which allows for
-						biologists to locate invasive species and relocate them.</p>
-					<br />
-					<a href="https://oregonturtles.org/" class="button">Learn More</a>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
-					<h3>Music Collaboration Manager</h3>
-					<h4>C# | ASP.NET Core | Javascript | Tailwind CSS</h4>
-					<p>I am a lead developer on a team of 4 developers. This application is
-						for Spotify users who need a means to collaborate with other users,
-						upload their own music, a way to filter their songs easier,
-						get recommendations on the fly, play music with their friends utilizing polls,
-						and customize their own interfaces.</p>
-					<br />
-					<a href="https://github.com/WH-Designs/Panda-Programmers" class="button">Learn More</a>
-				</article>
+			<div id="wrapper">
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<span><img src="images/logo2.jpg" alt="displayimage" style="width:100px;height:100px;border-radius: 25px;"></span>
+							<h1>Wyatt Haak</h1>
+							<p>Hello and welcome, my name is Wyatt, I a Senior Software Engineer Student <br/>
+							at Western Oregon University and I want to show you who I am.</p>
+							<span>
+								<a href="https://github.com/WH-Designs" style="text-decoration: none;"><i class="fa-brands fa-github fa-2xl"></i></a> &emsp; <a href="https://www.linkedin.com/in/wyatt-haak-ba3816203/" style="text-decoration: none;"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+							</span>
+							<hr/>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly"><i class="fa-solid fa-code-branch"></i> Projects</a></li>
+							</ul>
+						</div>
+					</section>
+
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="https://oregonturtles.org/" class="image"><img src="images/OregonTurtlesSite.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Oregon Turtles</h2>
+									<h4>C# | ASP.NET Core | Xamarin</h4>
+									<p>I am a lead developer on the Development team for Turtle App which is an app and website that
+										WOU is developing for the Oregon Department of Fish and Wildlife that allows
+										anyone to observe and record turtle sightings in Oregon. Which allows for
+										biologists to locate invasive species and relocate them.</p>
+									<ul class="actions">
+										<li><a href="https://oregonturtles.org/" class="button"><i class="fa-solid fa-seedling"></i> Check it out</a></li>&ensp;<li><a href="#" class="button"> <i class="fa-solid fa-code-branch"></i> Source Code</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Music Collaboration Manager</h2>
+									<h4>C# | ASP.NET Core | Javascript | Tailwind CSS</h4>
+									<p>I am the lead developer and Repository manager. This application is
+										for Spotify users who need a means to collaborate with other users,
+										upload their own music, a way to filter their songs easier,
+										get recommendations on the fly, play music with their friends utilizing polls,
+										and customize their own interfaces.</p>
+									<ul class="actions">
+										<li><a href="#" class="button"> <i class="fa-solid fa-music"></i> Check it out</a></li>&ensp;<li><a href="https://github.com/WH-Designs/Panda-Programmers" class="button"> <i class="fa-solid fa-code-branch"></i> Source Code</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>What I know</h2>
+							<p>I have always made it a goal to have a strong desire to learn and grow my knowledge in all aspects.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Languages</h3>
+									<p>I am deeply committed to continuously learning, growing, and maintaining my dedication and 
+										passion for software development. I possess a wealth of knowledge in coding concepts and 
+										languages, including C#, JavaScript, Python, and SQL. I prioritize building upon my understanding 
+										of fundamental principles and advanced techniques required for developing complex applications across 
+										both front-end and back-end development.
+									</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Frameworks</h3>
+									<p>I have had the opportunity to gain experience working with a variety of frameworks, including ASP.NET, 
+										ASP.NET Core, React, Node.js, jQuery, Bootstrap, and Tailwind CSS. Through my hands-on experience with 
+										these frameworks, I have developed a deep understanding of their functionalities and capabilities. 
+										This knowledge has allowed me to effectively design and build robust and efficient software applications, 
+										from web development to mobile applications.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Services</h3>
+									<p>I have gained experience working with a variety of services, with a particular focus on Git and Azure. 
+										As an expert in Git, I possess a deep understanding of its functionality and capabilities for version 
+										control, code collaboration, and management. Additionally, my experience with Azure has allowed me to 
+										develop a strong understanding of its cloud computing and infrastructure services, enabling me to deploy, 
+										manage, and monitor cloud-based applications with ease.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Graphic Design</h3>
+									<p>Accessibility and readability are fundamental aspects of my approach to developing websites. I am committed 
+										to ensuring that all the sites I develop are accessible to everyone, regardless of their abilities, by 
+										following the best practices for web accessibility. Additionally, I prioritize creating sites that are 
+										easy to read and navigate, with clean and modern designs that engage and inspire users.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Communication</h3>
+									<p>I strive to have a natural ability to connect with others, express
+										myself clearly, and actively listen to the perspectives around me. I also strive
+										to be profecient in both verbal and non verbal communication which allows me to
+										articulate complex concepts in a way that is easy for others to understand, which will
+										make me an invaluable asset in any team setting.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Learning and Growing</h3>
+									<p>I am dedicated to continuously learning and growing, with a strong ability to adapt to 
+										new environments and technologies. With a passion for software development, I make it a priority 
+										to stay up-to-date with the latest industry trends and best practices, expanding my knowledge and 
+										skillset. I possess a natural aptitude for quickly learning new concepts and adapting to new 
+										technologies, allowing me to excel in any development environment.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="https://github.com/WH-Designs" class="button">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
 			</div>
-		</section>
-	</div>
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="https://github.com/WH-Designs" class="icon brands fa-github"><span class="label">Github</span></a></li>
-				<li><a href="https://www.linkedin.com/in/wyatt-haak-ba3816203/" class="icon brands fa-linkedin"><span class="label">Dribbble</span></a></li>			</ul>
-			<ul class="copyright">
-				<li>&copy; WH-Designs</li>
-			</ul>
-		</div>
-	</footer>
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; WH-Designs. All rights reserved.</li>
+					</ul>
+				</div>
+			</footer>
 
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
-</body>
-
+	</body>
 </html>
