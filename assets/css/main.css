@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #111111, #992c2c);
+				background-image: -webkit-linear-gradient(to right, #111111, #992c2c);
+				background-image: -ms-linear-gradient(to right, #111111, #992c2c);
+				background-image: linear-gradient(to right, #111111, #992c2c);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -2536,27 +2536,27 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #4a4a4b;
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #6f6f70;
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					color: #c2c2c3;
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					color: #8d8d8f;
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #b74e4e;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					color: #953d3d;
 				}
 
 /* Image */
@@ -3765,10 +3765,10 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #a64242, #4e59b7);
-				background-image: -webkit-linear-gradient(to right, #a64242, #4e59b7);
-				background-image: -ms-linear-gradient(to right, #a64242, #4e59b7);
-				background-image: linear-gradient(to right, #a64242, #4e59b7);
+				background-image: -moz-linear-gradient(to right, #a64242, #19191a);
+				background-image: -webkit-linear-gradient(to right, #a64242, #19191a);
+				background-image: -ms-linear-gradient(to right, #a64242, #19191a);
+				background-image: linear-gradient(to right, #a64242, #19191a);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
