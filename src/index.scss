@@ -1,0 +1,26 @@
+@import '@picocss/pico';
+@import './variable.scss';
+
+body {
+    padding: 0px 50px 10px 40px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #11191f;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #e53935;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #f44336;
+}
