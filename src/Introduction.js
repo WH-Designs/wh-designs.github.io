@@ -1,34 +1,42 @@
-import profileImg from "./images/profile-img.jpg";
+import profileImg from "./images/profile-img2.jpg";
 
 const Introduction = () => {
   return (
-    <div className="grid" style={{ marginTop: "10px" }}>
-      <article
-        style={{
-          width: "fit-content",
-          margin: "0 auto",
-        }}
-      >
-        <img src={profileImg} alt="me" style={{ maxWidth: "400px" }} />
-      </article>
+    <div>
       <article
         style={{
           margin: "0 auto",
           alignContent: "center",
           textAlign: "center",
+          display: "flex",
+          flexDirection: "row",
         }}
       >
-        <h4 style={{ fontWeight: "normal", lineHeight: "30pt" }}>
-          Hello, my name is Wyatt. I am a results-driven Software Developer with
-          a passion for creating innovative solutions. With one year of
-          professional experience, I have developed and refined my skills
-          through meaningful and impactful projects. I hold a bachelor's degree
-          in Computer Science from Western Oregon University, where I graduated
-          Summa Cum Laude, specializing in software engineering. My dedication
-          to continuous learning and my pursuit of new challenges underscore my
-          commitment to advancing my technical expertise and delivering
-          high-quality results.
-        </h4>
+        <img
+          src={profileImg}
+          alt="me"
+          style={{
+            maxWidth: "460px",
+            borderRadius: "50%",
+          }}
+        />
+        <article
+          style={{
+            margin: "0 auto",
+            alignContent: "center",
+            textAlign: "center",
+            maxWidth: "70%",
+            backgroundColor: "#13171f",
+          }}
+        >
+          <h1 style={{ fontWeight: "normal", lineHeight: "50pt" }}>
+            A results-driven Software Engineer with 2-3 years of professional
+            experience, specializing in software engineering. Holds a bachelor's
+            degree in Computer Science from Western Oregon University and is
+            passionate about innovation and continuous learning. Dedicated to
+            creating impactful solutions and advancing technical expertise.
+          </h1>
+        </article>
       </article>
     </div>
   );
