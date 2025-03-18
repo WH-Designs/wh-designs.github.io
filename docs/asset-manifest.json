@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.1f0da6d2.css",
-    "main.js": "/static/js/main.9341b8fc.js",
-    "static/media/profile-img.jpg": "/static/media/profile-img.e58843918e9f6fc8fd13.jpg",
+    "main.js": "/static/js/main.6d1ba5a4.js",
+    "static/media/profile-img2.jpg": "/static/media/profile-img2.a573e1309ff33337ebdf.jpg",
     "static/media/MCMDashboard.png": "/static/media/MCMDashboard.c307ccfd6f5901239d8a.png",
     "static/media/OregonTurtlesSite.jpg": "/static/media/OregonTurtlesSite.9f17be6649ca410a5c18.jpg",
     "static/media/1.png": "/static/media/1.1503988f0bf381c78322.png",
@@ -11,10 +11,10 @@
     "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.be19ad32f0c95b1b5ef67159b099127b.svg",
     "index.html": "/index.html",
     "main.1f0da6d2.css.map": "/static/css/main.1f0da6d2.css.map",
-    "main.9341b8fc.js.map": "/static/js/main.9341b8fc.js.map"
+    "main.6d1ba5a4.js.map": "/static/js/main.6d1ba5a4.js.map"
   },
   "entrypoints": [
     "static/css/main.1f0da6d2.css",
-    "static/js/main.9341b8fc.js"
+    "static/js/main.6d1ba5a4.js"
   ]
 }
